@@ -9,7 +9,7 @@ export default class CardLayout extends Component {
           src={this.props.item.avatar_url}
           alt={this.props.item.login}
         />
-        <h3>{this.props.item.login}</h3>
+        <h3 className='f-username'>{this.props.item.login}</h3>
       </div>
     )
   }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Card from './components/card'
 import CardMain from './components/cardMain'
-import { Divider } from 'semantic-ui-react'
 
 import './App.css'
 
@@ -28,7 +27,6 @@ export default class App extends Component {
       <div className='container'>
         <CardMain my={this.state.myCard} />
         {console.log(this.state.myCard)}
-        <Divider horizontal>Followers</Divider>
         <Card char={this.state.followers} />
       </div>
     )
